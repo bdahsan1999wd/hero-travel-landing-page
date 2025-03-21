@@ -10,7 +10,9 @@
 body {
   font-family: "Mulish", sans-serif;
 }
-
+#hide {
+  display: none;
+}
 /* -------------------------Shared Styles Starts Here-------------------------*/
 .text-center {
   text-align: center;
@@ -20,11 +22,31 @@ body {
   display: flex;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3.125rem;
+  margin-bottom: 1.5rem;
+}
+
 .section-description {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
 }
+
+.btn-primary {
+  /* display: block; */
+  text-decoration: none;
+  background-color: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.5625rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
 /* -------------------------Shared Styles Ends Here-------------------------*/
 /* ----------Navbar Styles Added---------- */
 nav {
@@ -184,4 +206,42 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* ----------Main Section Styles Added---------- */
+main {
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ----------Our Popular Tours Section Styles Added---------- */
+.popular-tours-section {
+  outline: 1px solid blue;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-text-container {
+  flex-direction: column;
+  align-items: start;
+}
+.popular-text-container p {
+  margin-bottom: 1.5rem;
+  color: rgba(19, 19, 24, 0.7);
+}
+.popular-text-container li {
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+}
+.popular-text-container a {
+  margin-top: 0.5rem;
+}
+.popular-image-container img {
+  width: 100%;
 }

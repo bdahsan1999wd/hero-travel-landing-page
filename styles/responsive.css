@@ -56,6 +56,17 @@
   .input-anchor {
     background-position: 5rem center;
   }
+
+  /* ----------Popular Tours Section Mobile/Small Device Responsive Added---------- */
+  .popular-tours-section {
+    flex-direction: column;
+    margin: 0px 20px;
+    gap: 1.5rem;
+  }
+  .popular-text-container h3 {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -100,5 +111,19 @@
 
   .input-anchor {
     background-position: left 5rem center;
+  }
+
+  /* ----------Popular Tours Section Tablet/Medium Device Responsive Added---------- */
+  .popular-tours-section {
+    flex-direction: column;
+    margin: 0px 20px;
+    gap: 1.5rem;
+  }
+  .popular-text-container {
+    align-items: center;
+  }
+  .popular-text-container h3 {
+    font-size: 2rem;
+    line-height: 3.75rem;
   }
 }

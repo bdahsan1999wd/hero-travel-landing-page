@@ -245,3 +245,50 @@ main {
 .popular-image-container img {
   width: 100%;
 }
+
+/* ----------Choose Your Destination Section Styles Added---------- */
+.choose-destination-section {
+  outline: 1px solid blue;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.choose-destination-section img {
+  width: 100%;
+  height: 300px;
+  filter: brightness(90%);
+}
+
+.destination {
+  margin-bottom: 3rem;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.row-2 {
+  grid-template-columns: 1fr 1.27fr 0.73fr;
+}
+.row-3 {
+  grid-template-columns: 1fr 1.422fr;
+}
+
+.country-column {
+  position: relative;
+}
+
+.country-name {
+  position: absolute;
+  top: 50%;
+  color: rgb(255, 255, 255, 0.9);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+}

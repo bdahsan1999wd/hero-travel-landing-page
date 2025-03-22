@@ -110,6 +110,35 @@
     grid-column: auto;
     width: 100%;
   }
+
+  /* ----------Deals And Discounts Section Mobile/Small Device Responsive Added---------- */
+  .deals-discounts-section {
+    margin: 0px 20px;
+  }
+  .deals-discounts-section h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .offers-container {
+    border-radius: 1rem;
+    height: 80vh;
+  }
+
+  .offers-content {
+    border: 2px solid rgb(243, 26, 26);
+    width: 90%;
+    height: auto;
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+  }
+  .see-all-packages-container {
+    margin-bottom: 2rem;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -202,5 +231,18 @@
     margin-top: 3rem;
     font-size: 2rem;
     line-height: 3.75rem;
+  }
+
+  /* ----------Why Choose Us Section Tablet/Medium Device Responsive Added---------- */
+  .deals-discounts-section {
+    margin: 0px 20px;
+  }
+  .deals-discounts-section h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    line-height: 3.75rem;
+  }
+  .offers-container {
+    border-radius: 1rem;
   }
 }

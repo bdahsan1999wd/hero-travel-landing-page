@@ -89,6 +89,27 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
+
+  /* ----------Why Choose Us Section Mobile/Small Device Responsive Added---------- */
+  .why-choose-us-section {
+    margin: 0px 20px;
+  }
+  .why-choose-us-section h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item-3 {
+    grid-column: auto;
+    width: 100%;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -171,5 +192,15 @@
 
   .country-name {
     font-size: 2rem;
+  }
+
+  /* ----------Why Choose Us Section Tablet/Medium Device Responsive Added---------- */
+  .why-choose-us-section {
+    margin: 0px 20px;
+  }
+  .why-choose-us-section h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    line-height: 3.75rem;
   }
 }

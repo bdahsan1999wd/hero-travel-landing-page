@@ -442,9 +442,41 @@ main {
   margin-bottom: 1.5rem;
 }
 
-/* Positioning the 'See All Packages' button */
+/* -----See All Packages Button Styles----- */
 .see-all-packages-container {
   text-align: center;
   margin-top: 3.5rem;
   margin-bottom: 5rem;
+}
+
+/* ----------Simple Perfect Place Styles Added---------- */
+.perfect-place-section {
+  outline: 1px solid blue;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfect-place-container {
+  flex-direction: column;
+  align-items: start;
+}
+.perfect-place-container p {
+  margin-bottom: 1.5rem;
+  color: rgba(19, 19, 24, 0.7);
+}
+.perfect-place-container li {
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(19, 19, 24);
+  font-weight: 700;
+}
+.perfect-place-container a {
+  margin-top: 0.5rem;
+}
+.popular-image-container img {
+  width: 100%;
 }

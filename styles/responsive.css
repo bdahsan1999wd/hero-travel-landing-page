@@ -139,6 +139,18 @@
   .see-all-packages-container {
     margin-bottom: 2rem;
   }
+
+  /* ----------Simple Perfect Place Section Mobile/Small Device Responsive Added---------- */
+  .perfect-place-section {
+    flex-direction: column;
+    margin: 0px 20px;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  .perfect-place-container h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -244,5 +256,19 @@
   }
   .offers-container {
     border-radius: 1rem;
+  }
+
+  /* ----------Simple Perfect Place Section Tablet/Medium Device Responsive Added---------- */
+  .perfect-place-section {
+    flex-direction: column;
+    margin: 0px 20px;
+    gap: 1.5rem;
+  }
+  .perfect-place-container {
+    align-items: center;
+  }
+  .perfect-place-container h3 {
+    font-size: 2rem;
+    line-height: 3.75rem;
   }
 }

@@ -10,6 +10,7 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+
 #hide {
   display: none;
 }
@@ -38,7 +39,6 @@ body {
 }
 
 .btn-primary {
-  /* display: block; */
   text-decoration: none;
   background-color: rgb(255, 84, 0);
   color: rgb(255, 255, 255);
@@ -48,18 +48,16 @@ body {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
 }
-
 /* -------------------------Shared Styles Ends Here-------------------------*/
+
 /* ----------Navbar Styles Added---------- */
 nav {
-  outline: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .nav-container {
-  outline: 1px solid red;
   max-width: 1170px;
   justify-content: space-between;
   align-items: center;
@@ -105,14 +103,12 @@ nav {
 
 /* ----------Banner Section Styles Added---------- */
 .banner-section {
-  outline: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
 .banner-container {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
@@ -212,14 +208,12 @@ nav {
 
 /* ----------Main Section Styles Added---------- */
 main {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 /* ----------Our Popular Tours Section Styles Added---------- */
 .popular-tours-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -250,7 +244,6 @@ main {
 
 /* ----------Choose Your Destination Section Styles Added---------- */
 .choose-destination-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -297,7 +290,6 @@ main {
 
 /* ----------Why Choose Us Section Styles Added---------- */
 .why-choose-us-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -350,7 +342,6 @@ main {
 
 /* ---------- Deals And Discounts Section Styles Added ---------- */
 .deals-discounts-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -452,7 +443,6 @@ main {
 
 /* ----------Simple Perfect Place Styles Added---------- */
 .perfect-place-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -484,7 +474,6 @@ main {
 
 /* ----------Newsletter Section Styles Added---------- */
 .newsletter-section {
-  outline: 1px solid blue;
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -592,7 +581,6 @@ hr {
 
 /* ----------Footer Section Styles Added---------- */
 .footer {
-  outline: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   padding: 100px 0px;

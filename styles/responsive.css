@@ -151,6 +151,16 @@
     font-size: 1.5rem;
     line-height: 1.75rem;
   }
+
+  /* ----------Newsletter Section Mobile/Small Device Responsive Added---------- */
+  .newsletter-section {
+    margin: 0px 20px;
+    flex-direction: column;
+  }
+  .newsletter-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -205,6 +215,7 @@
   }
   .popular-text-container {
     align-items: center;
+    width: 100%;
   }
   .popular-text-container h3 {
     font-size: 2rem;
@@ -266,9 +277,26 @@
   }
   .perfect-place-container {
     align-items: center;
+    width: 100%;
   }
   .perfect-place-container h3 {
     font-size: 2rem;
     line-height: 3.75rem;
+  }
+  .popular-image-container {
+    width: 100%;
+  }
+
+  /* ----------Newsletter Section Tablet/Medium Device Responsive Added---------- */
+  .newsletter-section {
+    margin: 0px 20px;
+    flex-direction: column;
+  }
+  .newsletter-container {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .newsletter-image-container {
+    width: 100%;
   }
 }

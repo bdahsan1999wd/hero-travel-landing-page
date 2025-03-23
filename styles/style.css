@@ -589,3 +589,70 @@ hr {
   font-weight: 800;
   line-height: 2.5rem;
 }
+
+/* ----------Footer Section Styles Added---------- */
+.footer {
+  outline: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.footer-logo h3 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 45px;
+  color: rgb(19, 19, 24);
+}
+.footer-logo span {
+  margin-left: 10px;
+  color: rgb(255, 84, 0);
+}
+
+.footer,
+.footer-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: rgb(90, 90, 93);
+}
+.social-icon {
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.social-icon i {
+  color: rgb(19, 19, 24);
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* -----hr line styles Added----- */
+.footer-divider {
+  width: 100%;
+  max-width: 872px;
+  border: none;
+  border-top: 1px solid rgba(19, 19, 24, 0.1);
+  margin: 2rem auto;
+}
+
+.copy {
+  font-size: 1rem;
+  color: rgb(19, 19, 24);
+}

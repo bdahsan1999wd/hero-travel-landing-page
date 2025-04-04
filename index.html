@@ -353,9 +353,19 @@
         <hr class="footer-divider">
 
         <div class="copy">
-            <p>&copy; 2025 - All Rights Reserved by Ahsan Habib.</p>
+            <p>&copy; <span id="year"></span> - All Rights Reserved by Ahsan Habib.</p>
         </div>
     </footer>
+
+    <!---------- JavaScript Added ---------->
+    <script>
+
+        // Get the current year and update the footer
+        const yearSpan = document.getElementById("year");
+        const currentYear = new Date().getFullYear();
+        yearSpan.textContent = currentYear;
+
+    </script>
 
 </body>
 
